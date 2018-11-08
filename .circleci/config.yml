@@ -19,6 +19,9 @@ jobs:
 
     steps:
       - checkout
+      - run:
+          name: Install pipenv
+          command: pip install pipenv
 
 #      # Download and cache dependencies
 #      - restore_cache:
