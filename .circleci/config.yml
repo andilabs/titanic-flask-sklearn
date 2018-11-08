@@ -33,7 +33,7 @@ jobs:
       - run:
           name: install dependencies
           command: |
-            pipenv --python python3
+            pipenv --python python3.6
             pipenv shell
             pipenv install
 
