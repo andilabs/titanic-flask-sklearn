@@ -34,7 +34,7 @@ jobs:
           name: install dependencies
           command: |
             pipenv --python python3
-            pipenv shell
+            pipenv run
             pipenv install
 
 #      - save_cache:
@@ -50,7 +50,7 @@ jobs:
       - run:
           name: run tests
           command: |
-            pipenv shell
+            pipenv run
             pytest -v
 
       - store_artifacts:
