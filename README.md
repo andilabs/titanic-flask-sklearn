@@ -1,4 +1,5 @@
 # titanic
+[![CircleCI](https://circleci.com/gh/andilabs/titanic-flask-sklearn.svg?style=svg)](https://circleci.com/gh/andilabs/titanic-flask-sklearn)
 
 TASK
 ----
